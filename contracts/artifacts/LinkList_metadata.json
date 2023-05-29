@@ -1,0 +1,139 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_Dao",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					}
+				],
+				"name": "getFront",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					}
+				],
+				"name": "getNext",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "account",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "front",
+						"type": "address"
+					}
+				],
+				"name": "increate",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					}
+				],
+				"name": "remove",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"vinci-protocol-private/contracts/linkListTest.sol": "LinkList"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"vinci-protocol-private/contracts/linkListTest.sol": {
+			"keccak256": "0x029be19b9e985dec4c208c875f43a19c6d788ecc60e9a58ff0c87db9c833e7e8",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://626896e3224be798ac66a6c6695ef54b68fda76e8297dc0b3858ee0f189568a9",
+				"dweb:/ipfs/QmV2evgmg4jHfdN3zkayfVsjV34eWyfUFJ3xG8o4jkR7yf"
+			]
+		},
+		"vinci-protocol-private/contracts/weight.sol": {
+			"keccak256": "0xaa9a02e66b7fb881753e6cf4da5ae940d651c4c2e329b51a5d6e7b1cb48542f9",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://d7f39c58c952473d03d8f2e8a06d33a160e0dabae20fdcb9ddc7467011994d3d",
+				"dweb:/ipfs/QmaHkdTMgouRGU2WM1hFVAf8MtqBsmPCgok7BcSUdXbX3Y"
+			]
+		}
+	},
+	"version": 1
+}

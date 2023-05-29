@@ -1,0 +1,185 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "AUCTION_DURATION",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "TIME_BUYING",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "VicAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "listingIdCounter",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "listings",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "address",
+								"name": "nftAddress",
+								"type": "address"
+							},
+							{
+								"internalType": "uint256",
+								"name": "tokenId",
+								"type": "uint256"
+							},
+							{
+								"internalType": "address",
+								"name": "owner",
+								"type": "address"
+							},
+							{
+								"internalType": "enum NftAuctionStorage.NftType",
+								"name": "nftType",
+								"type": "uint8"
+							}
+						],
+						"internalType": "struct NftAuctionStorage.NFT",
+						"name": "nft",
+						"type": "tuple"
+					},
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "price",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "startTimestamp",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "highestBidder",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "highestBidPrice",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "vicDAO",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/NftAuctionStorage.sol": "NftAuctionStorage"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/NftAuctionStorage.sol": {
+			"keccak256": "0x66e6cbda0fc206b21f26bdf88c8e4fa360a85d3eb312b03f6a39d9d04ad94fa6",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://e613b4a64185e35b7bb73d0c6f741d3252f7f37653b4ad7267437f5d7600a928",
+				"dweb:/ipfs/QmQ8J6vkoqTicyJdhSaNuJqCpkYGcVoZ2UFv5Cg5b3hES7"
+			]
+		},
+		"contracts/library/LinkedList.sol": {
+			"keccak256": "0x5c961f4048e79a2215a7599a960802c9287c563a7d21762c6bc7c011cb0e3cd6",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://c50105f20bb501c6c5d1c29ea483c7a43b9cf79ce45ddfae0a8258cd02e45333",
+				"dweb:/ipfs/QmaokNt7gfMuZ8oHvFHCN9Vgg1CEtkjpgNdLPnR6pnVX1K"
+			]
+		}
+	},
+	"version": 1
+}

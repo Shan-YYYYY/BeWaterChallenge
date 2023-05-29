@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "nftAddress",
+						"type": "address"
+					}
+				],
+				"name": "addNftChain",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/NftStore.sol": "NftStore"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/NftStore.sol": {
+			"keccak256": "0xbad8983e5ed440c1053b4d25720e057c3e99c5ad0f4768d1882ea3d4ecbbe1c6",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://1c0369e344fb42e57d472b10ceb9301404c3497a3b0bcd681cc8ed4dbd863d83",
+				"dweb:/ipfs/Qmbu3ZHbnv3DyVcc2Vnht9KGCxUJKHMaXwXpAR8CsiPeQ8"
+			]
+		},
+		"contracts/library/LinkedList.sol": {
+			"keccak256": "0xec6e084d0c2a97917c2149c7d009116584e50b42dce728686bb7a0ab816fb00e",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://0a47aac8db9611a6059a248e954e15bdaef8836783e5f7e1e0890d32986d1321",
+				"dweb:/ipfs/QmWC7quvCK4cVS8x5jJ7hgjFcC6Tqv6E18AbSTqL2NmRtc"
+			]
+		}
+	},
+	"version": 1
+}

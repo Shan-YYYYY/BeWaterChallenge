@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/library/LinkedList.sol": "LinkedListLib"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/library/LinkedList.sol": {
+			"keccak256": "0x5c961f4048e79a2215a7599a960802c9287c563a7d21762c6bc7c011cb0e3cd6",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://c50105f20bb501c6c5d1c29ea483c7a43b9cf79ce45ddfae0a8258cd02e45333",
+				"dweb:/ipfs/QmaokNt7gfMuZ8oHvFHCN9Vgg1CEtkjpgNdLPnR6pnVX1K"
+			]
+		}
+	},
+	"version": 1
+}

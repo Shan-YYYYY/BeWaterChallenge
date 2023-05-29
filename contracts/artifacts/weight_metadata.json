@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					}
+				],
+				"name": "vevicBalanceOf",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"vinci-protocol-private/contracts/weight.sol": "weight"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"vinci-protocol-private/contracts/weight.sol": {
+			"keccak256": "0xaa9a02e66b7fb881753e6cf4da5ae940d651c4c2e329b51a5d6e7b1cb48542f9",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://d7f39c58c952473d03d8f2e8a06d33a160e0dabae20fdcb9ddc7467011994d3d",
+				"dweb:/ipfs/QmaHkdTMgouRGU2WM1hFVAf8MtqBsmPCgok7BcSUdXbX3Y"
+			]
+		}
+	},
+	"version": 1
+}
